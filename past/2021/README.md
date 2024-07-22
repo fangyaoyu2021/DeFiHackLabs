@@ -2,7 +2,7 @@
 
 ## Before 2021 - List of Past DeFi Incidents
 
-47 incidents included.
+48 incidents included.
 
 [20211221 Visor Finance](#20211221-visor-finance---reentrancy)
 
@@ -81,6 +81,8 @@
 [20201121 Pickle Finance](#20201121-pickle-finance)
 
 [20201026 Harvest Finance](#20201026-harvest-finance---flashloan-attack)
+
+[20200912 bzx](#20200912-bzx---incorrect-transfer)
 
 [20200804 Opyn Protocol](#20200804-opyn-protocol---msgValue-in-loop)
 
@@ -202,8 +204,11 @@ Testing
 ```sh
 forge test --contracts ./src/test/2021-11/Ploutoz_exp.sol -vvv --evm-version shanghai
 ```
+
 #### Contract
-[Ploutoz_exp.sol](src/test/2021-11/Ploutoz_exp.sol)
+
+[Ploutoz_exp.sol](../../src/test/2021-11/Ploutoz_exp.sol)
+
 ### Link reference
 
 https://x.com/peckshield/status/1463113809111896065
@@ -620,12 +625,14 @@ https://bscscan.com/tx/0x765de8357994a206bb90af57dcf427f48a2021f2f28ca81f2c00bc3
 
 ### Lost: 1.5M
 
-
 ```sh
 forge test --contracts ./src/test/2021-05/JulSwap_exp.sol -vvv --evm-version shanghai
 ```
+
 #### Contract
-[JulSwap_exp.sol](src/test/2021-05/JulSwap_exp.sol)
+
+[JulSwap_exp.sol](../../src/test/2021-05/JulSwap_exp.sol)
+
 ### Link reference
 
 https://x.com/tg_cryptos/status/1398090345368408064
@@ -674,12 +681,14 @@ https://bscscan.com/tx/0x897c2de73dd55d7701e1b69ffb3a17b0f4801ced88b0c75fe1551c5
 
 ### Lost: 11M
 
-
 ```sh
 forge test --contracts ./src/test/2021-05/bEarn_exp.sol -vvv --evm-version shanghai
 ```
+
 #### Contract
-[bEarn_exp.sol](src/test/2021-05/bEarn_exp.sol)
+
+[bEarn_exp.sol](../../src/test/2021-05/bEarn_exp.sol)
+
 ### Link reference
 
 https://bearndao.medium.com/bvaults-busd-alpaca-strategy-exploit-post-mortem-and-bearn-s-compensation-plan-b0b38c3b5540
@@ -768,21 +777,40 @@ https://bscscan.com/tx/0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787
 
 ---
 
+### 20200912 bzx - Incorrect transfer
+
+### Lost: 
+
+```sh
+forge test --contracts ./src/test/2020-09/bzx_exp.sol -vvv
+```
+#### Contract
+
+[bzx_exp.sol](../../src/test/2020-09/bzx_exp.sol)
+
+### Link reference
+
+https://twitter.com/0x000000000marc/status/1305354469354303488
+
+---
+
 ### 20180424 SmartMesh - Overflow
 
 ### Lost: 140M
-
 
 ```sh
 forge test --contracts ./src/test/2018-04/SmartMesh_exp.sol -vvv
 ```
 #### Contract
-[SmartMesh_exp.sol](src/test/2018-04/SmartMesh_exp.sol)
+
+[SmartMesh_exp.sol](../../src/test/2018-04/SmartMesh_exp.sol)
+
 ### Link reference
 
 https://cryptojobslist.com/blog/two-vulnerable-erc20-contracts-deep-dive-beautychain-smartmesh
 
 ---
+
 ### 20210308 DODO - Flashloan Attack
 
 #### Lost: $700,000
