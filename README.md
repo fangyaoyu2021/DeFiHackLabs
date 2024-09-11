@@ -2,7 +2,7 @@
 
 **Reproduce DeFi hack incidents using Foundry.**
 
-503 incidents included.
+522 incidents included.
 
 Let's make Web3 secure! Join [Discord](https://discord.gg/Fjyngakf3h)
 
@@ -43,12 +43,29 @@ All articles are also published on [Substack](https://defihacklabs.substack.com/
 
 If you appreciate our work, please consider donating. Even a small amount helps us continue developing and improving our projects, and promoting web3 security.
 
+- Gitcoin - [Donate DeFiHackLabs](https://explorer.gitcoin.co/#/projects/0xbea14fd383c20cd085f30b2baa83ce96be83f1b56464bd74fcc00eb85086e280)
 - EVM Chains - 0xD7d6215b4EF4b9B5f40baea48F41047Eb67a11D5
 - [Giveth](https://giveth.io/donate/defihacklabs)
 
 ## List of Past DeFi Incidents
 
+[20240903 Penpiexyz_io](#20240903-Penpiexyz_io---reentrancy-and-reward-manipulation)
+
+[20240816 Zenterest](#20240816-Zenterest---price-out-of-date)
+
+[20240814 YodlRouter](#20240814-noname---arbitrary-call)
+
+[20240813 VOW](#20240813-vow---misconfiguration)
+
+[20240812 iVest](#20240812-iVest---business-logic-flaw)
+
+[20240806 Novax](#20240806-Novax---price-manipulation)
+
+[20240801 Convergence](#20240801-Convergence---incorrect-input-validation)
+
 [20240724 Spectra_finance](#20240724-spectra_finance---incorrect-input-validation)
+
+[20240723 MEVbot_0xdd7c](#20240723-mevbot_0xdd7c---incorrect-input-validation)
 
 [20240716 Lifiprotocol](#20240716-lifiprotocol---incorrect-input-validation)
 
@@ -58,7 +75,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240711 SBT](#20240711-sbt---business-logic-flaw)
 
-[20240711 GAX](#20240711-GAX---precision-loss)
+[20240711 GAX](#20240711-GAX---lack-of-access-control)
 
 [20240708 LW](#20240708-Lw---integer-underflow)
 
@@ -180,6 +197,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240401 OpenLeverage](#20240401-openleverage---reentrancy)
 
+[20240329 ETHFIN](#20240329-ethfin---price-manipulation)
+
 [20240329 PrismaFi](#20240329-prismaFi---insufficient-validation)
 
 [20240328 LavaLending](#20240328-lavalending---business-logic-flaw)
@@ -242,6 +261,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240215 Miner](#20240215-Miner---lack-of-validation-dst-address)
 
+[20240213 MINER BSC](#20240213-miner---price-manipulation)
+
 [20240211 Game](#20240211-game---reentrancy--business-logic-flaw)
 
 [20240210 FILX DN404](#20240210-filx-dn404---access-control)
@@ -290,6 +311,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 <details> <summary> 2023 </summary>
 
+[20231231 Channels BUSD&USDC](past/2023/README.md#20231231-channels---price-manipulation)
+
 [20231230 ChannelsFinance](past/2023/README.md#20231230-channelsfinance---compoundv2-inflation-attack)
 
 [20231228 CCV](past/2023/README.md#20231225-CCV---precision-loss)
@@ -301,6 +324,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 [20231222 PineProtocol](past/2023/README.md#20231222-pineprotocol---business-logic-flaw)
 
 [20231220 TransitFinance](past/2023/README.md#20231220-transitfinance---lack-of-validation-pool)
+
+[20231217 Bob](past/2023/README.md#20231217-bob---price-manipulation)
 
 [20231217 FloorProtocol](past/2023/README.md#20231217-floorprotocol---business-logic-flaw)
 
@@ -314,17 +339,25 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20231213 HYPR](past/2023/README.md#20231213-hypr---business-logic-flaw)
 
+[20231211 GoodCompound](past/2023/README.md#20231211-goodcompound---price-manipulation)
+
+[20231209 BCT](past/2023/README.md#20231209-bct---price-manipulation)
+
 [20231207 HNet](past/2023/README.md#20231207-HNet---business-logic-flaw)
 
 [20231206 TIME](past/2023/README.md#20231206-time---arbitrary-address-spoofing-attack)
 
 [20231206 ElephantStatus](past/2023/README.md#20231206-elephantstatus---price-manipulation)
 
+[20231205 MAMO](past/2023/README.md#20231205-mamo---price-manipulation)
+
 [20231205 BEARNDAO](past/2023/README.md#20231205-bearndao---business-logic-flaw)
 
 [20231202 bZxProtocol](past/2023/README.md#20231202-bzxprotocol---inflation-attack)
 
 [20231201 UnverifiedContr_0x431abb](past/2023/README.md#20231201-unverifiedcontr_0x431abb---business-logic-flaw)
+
+[20231130 EEE](past/2023/README.md#20231130-eee---price-manipulation)
 
 [20231130 CAROLProtocol](past/2023/README.md#20231130-carolprotocol---price-manipulation-via-reentrancy)
 
@@ -854,6 +887,10 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20220824 LuckyTiger NFT](past/2022/README.md#20220824-luckytiger-nft---predicting-random-numbers)
 
+[20220816 Circle_2](past/2022/README.md#20220816-circle---price-manipulation)
+
+[20220813 Circle](past/2022/README.md#20220813-circle---price-manipulation)
+
 [20220810 XSTABLE Protocol](past/2022/README.md#20220810-xstable-protocol---incorrect-logic-check)
 
 [20220809 ANCH](past/2022/README.md#20220809-anch---skim-token-balance)
@@ -1060,6 +1097,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20200418 UniSwapV1](past/2021/README.md#20200418-uniswapv1---erc777-reentrancy)
 
+[20181007 SpankChain](past/2021/README.md#20181007-spankchain---reentrancy)
+
 [20180424 SmartMesh](past/2021/README.md#20180424-smartmesh---overflow)
 
 [20180422 Beauty Chain](past/2021/README.md##20180422-beauty-chain---integer-overflow)
@@ -1090,6 +1129,130 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ### List of DeFi Hacks & POCs
 
+### 20240903 Penpiexyz_io - Reentrancy and Reward Manipulation
+
+### Lost: 11,113.6 ETH (~$27,348,259 USD)
+
+```sh
+forge test --contracts ./src/test/2024-09/Penpiexyzio_exp.sol -vvv --evm-version shanghai
+```
+#### Contract
+
+[Penpiexyzio_exp.sol](src/test/2024-09/Penpiexyzio_exp.sol)
+
+### Link reference
+
+https://x.com/peckshield/status/1831072098669953388
+https://x.com/AnciliaInc/status/1831080555292856476
+https://x.com/hackenclub/status/1831383106554573099
+post-morten: https://x.com/Penpiexyz_io/status/1831462760787452240
+
+---
+
+### 20240816 Zenterest - Price Out Of Date
+
+### Lost: ~21000 USD
+
+```sh
+forge test --contracts ./src/test/2024-09/Zenterest_exp.sol -vvvv --evm-version shanghai
+```
+#### Contract
+
+[Zenterest_exp.sol](src/test/2024-09/Zenterest_exp.sol)
+
+### Link reference
+
+https://x.com/0xNickLFranklin/status/1824579761383018564
+
+---
+
+### 20240814 NoName - Arbitrary Call
+
+### Lost: ~5k
+
+
+```sh
+forge test --contracts ./src/test/2024-08/YodlRouter_exp.sol -vvv
+```
+#### Contract
+[YodlRouter_exp.sol](src/test/2024-08/YodlRouter_exp.sol)
+### Link reference
+
+https://x.com/0xNickLFranklin/status/1823601087011807636
+
+---
+
+### 20240813 VOW - Misconfiguration
+
+### Lost: ~ 1M USD
+
+
+```sh
+forge test --contracts ./src/test/2024-08/VOW_exp.sol -vvv
+```
+#### Contract
+[VOW_exp.sol](src/test/2024-08/VOW_exp.sol)
+### Link reference
+
+https://x.com/Vowcurrency/status/1823407231658025300
+
+---
+
+### 20240812 iVest - Business logic flaw
+
+### Lost: ~338 WBNB
+
+```sh
+forge test --contracts src/test/2024-08/IvestDao_exp.sol -vvv
+```
+
+#### Contract
+
+[IvestDao_exp.sol](src/test/2024-08/IvestDao_exp.sol)
+
+### Link reference
+
+https://x.com/AnciliaInc/status/1822870201698050064
+
+---
+
+
+### 20240806 Novax - Price Manipulation
+
+### Lost: ~25K USD
+
+```sh
+forge test --contracts ./src/test/2024-08/NovaXM2E_exp.sol -vvv
+```
+
+#### Contract
+
+[NovaXM2E_exp.sol](src/test/2024-08/NovaXM2E_exp.sol)
+
+### Link reference
+
+https://x.com/EXVULSEC/status/1820676684410147276
+
+---
+
+### 20240801 Convergence - Incorrect input validation
+
+### Lost: ~200K USD
+
+```sh
+forge test --contracts ./src/test/2024-08/Convergence_exp.sol -vvvv --evm-version cancun
+```
+
+#### Contract
+
+[Convergence_exp.sol](src/test/2024-08/Convergence_exp.sol)
+
+### Link reference
+
+https://x.com/DecurityHQ/status/1819030089012527510
+
+---
+
 ### 20240724 Spectra_finance - Incorrect input validation
 
 ### Lost: ~73K USD
@@ -1105,6 +1268,24 @@ forge test --contracts ./src/test/2024-07/Spectra_finance_exp.sol -vvv
 ### Link reference
 
 https://x.com/shoucccc/status/1815981585637990899
+
+---
+
+### 20240723 MEVbot_0xdd7c - Incorrect input validation
+
+### Lost: ~18k USD
+
+```sh
+forge test --contracts src/test/MEVbot_0xdd7c_exp.sol -vvv --evm-version cancun
+```
+
+#### Contract
+
+[MEVbot_0xdd7c_exp.sol](src/test/2024-07/MEVbot_0xdd7c_exp.sol)
+
+### Link reference
+
+https://x.com/SlowMist_Team/status/1815656653100077532
 
 ---
 
@@ -2264,6 +2445,22 @@ https://twitter.com/0xNickLFranklin/status/1774727539975672136
 
 ---
 
+### 20240329 ETHFIN - Price Manipulation
+
+### Lost: ~$1.24K (2.13 BNB)
+
+
+```sh
+forge test --contracts ./src/test/2024-03/ETHFIN_exp.sol -vvv --evm-version shanghai
+```
+#### Contract
+[ETHFIN_exp.sol](src/test/2024-03/ETHFIN_exp.sol)
+### Link reference
+
+https://app.blocksec.com/explorer/tx/bsc/0xfe031685d84f3bae1785f5b2bd0ed480b87815c3f23ce6ced73b8573b7e367c6
+
+---
+
 ### 20240329 PrismaFi - Insufficient Validation
 
 ### Lost: $~11M
@@ -2830,6 +3027,22 @@ forge test --contracts ./src/test/2024-02/Miner_exp.sol -vvv --evm-version shang
 #### Link reference
 
 https://twitter.com/Phalcon_xyz/status/1757777340002681326
+
+---
+
+### 20240213 MINER - Price Manipulation
+
+### Lost: ~3.5 WBNB
+
+
+```sh
+forge test --contracts ./src/test/2024-02/MINER_bsc_exp.sol -vvv --evm-version shanghai
+```
+#### Contract
+[MINER_bsc_exp.sol](src/test/2024-02/MINER_bsc_exp.sol)
+### Link reference
+
+https://app.blocksec.com/explorer/tx/bsc/0x15ab671c9bf918fa4b6a9eed9ccb527f32aca40e926ede2aec2c84dfa9c30512?line=6
 
 ---
 
